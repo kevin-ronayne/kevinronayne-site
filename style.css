@@ -51,3 +51,24 @@ h1 {
   border-radius: 6px;
   font-weight: bold;
 }
+
+.thinking {
+  padding: 100px 10%;
+  background: #111827;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.thinking h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.thinking p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  opacity: 0.85;
+  margin-bottom: 1.5rem;
+}
