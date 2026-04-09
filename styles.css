@@ -84,6 +84,9 @@ h1 {
 
 .project {
   margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
 }
 
 .project h3 {
@@ -104,6 +107,10 @@ h1 {
 
 .project li {
   margin-bottom: 8px;
+}
+
+.project:hover {
+  background: rgba(255,255,255,0.03);
 }
 
 .result {
