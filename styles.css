@@ -110,3 +110,11 @@ h1 {
   font-style: italic;
   opacity: 0.9;
 }
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  opacity: 0.65;
+  margin-bottom: 1rem;
+}
