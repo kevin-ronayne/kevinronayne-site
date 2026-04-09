@@ -72,3 +72,37 @@ h1 {
   opacity: 0.85;
   margin-bottom: 1.5rem;
 }
+
+.work {
+  padding: 100px 10%;
+  background: #0d1117;
+}
+
+.project {
+  margin-top: 40px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project p {
+  opacity: 0.85;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.project ul {
+  margin-left: 20px;
+  margin-bottom: 1rem;
+}
+
+.project li {
+  margin-bottom: 8px;
+}
+
+.result {
+  font-style: italic;
+  opacity: 0.9;
+}
