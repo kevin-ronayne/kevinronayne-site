@@ -1,0 +1,503 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Request a virtual new pet care consultation with Paradigm Pet Professionals.">
+    <meta name="theme-color" content="#003B6D">
+
+    <title>Request a Consultation | Paradigm Pet Professionals</title>
+
+    <link rel="icon" href="/schoolproject/D279/assets/logo.png">
+    <link rel="stylesheet" href="/schoolproject/D279/styles.css">
+
+    <script src="/schoolproject/D279/script.js" defer></script>
+</head>
+
+<body id="top">
+
+    <!-- Accessibility: Skip Navigation -->
+    <a class="skip" href="#main">Skip to content</a>
+
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="shell head-inner">
+
+            <a
+                class="brand"
+                href="/schoolproject/D279/index.html"
+                aria-label="Paradigm Pet Professionals — Home"
+            >
+                <img
+                    class=""
+                    src="/schoolproject/D279/assets/logo.png"
+                    alt="Paradigm Pet Professionals logo"
+                    loading="lazy"
+                >
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="main-nav"
+            >
+                Menu <span aria-hidden="true">☰</span>
+            </button>
+
+            <!-- Primary Navigation -->
+            <nav
+                id="main-nav"
+                class="main-nav"
+                aria-label="Primary navigation"
+            >
+
+                <a href="/schoolproject/D279/index.html">Home</a>
+
+                <a href="/schoolproject/D279/dogs.html">Dog Owners</a>
+
+                <a href="/schoolproject/D279/cats.html">Cat Owners</a>
+
+                <a href="/schoolproject/D279/birds.html">Bird Owners</a>
+
+                <a
+                    class="nav-cta"
+                    href="/schoolproject/D279/consultation.html"
+                    aria-current="page"
+                >
+                    Request a Consultation
+                    <span aria-hidden="true">↗</span>
+                </a>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main">
+
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumbs shell" aria-label="Breadcrumb">
+
+            <a href="/schoolproject/D279/index.html">Home</a>
+
+            <span aria-hidden="true">/</span>
+
+            <span aria-current="page">Request a Consultation</span>
+
+        </nav>
+
+        <!-- Consultation Hero -->
+        <section class="consult-hero">
+            <div class="shell">
+
+                <span class="eyebrow light">
+                    PERSONALIZED VIRTUAL GUIDANCE
+                </span>
+
+                <h1>Let’s talk about your pet.</h1>
+
+                <p>
+                    Share a little about you and your companion.
+                    We’ll contact you within 48 hours to schedule
+                    a consultation.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Consultation Content and Form -->
+        <section class="section shell form-layout">
+
+            <!-- Consultation Information -->
+            <div>
+
+                <span class="eyebrow">YOUR NEXT STEP</span>
+
+                <h2>Thoughtful care starts with a conversation.</h2>
+
+                <p>
+                    Whether you’re a new pet parent or have a question
+                    about a longtime companion, our Pexperts offer
+                    tailored, evidence-based guidance.
+                </p>
+
+                <!-- Consultation Process -->
+                <div class="expect">
+
+                    <strong>What happens next?</strong>
+
+                    <ol>
+                        <li>
+                            Tell us how to reach you and about your pet.
+                        </li>
+
+                        <li>
+                            Our team contacts you within 48 hours.
+                        </li>
+
+                        <li>
+                            We schedule your virtual consultation.
+                        </li>
+                    </ol>
+
+                </div>
+
+                <img
+                    class="form-photo"
+                    src="/schoolproject/D279/assets/consultation.jpg"
+                    alt="One-on-one consultation discussion"
+                    loading="lazy"
+                >
+
+            </div>
+
+            <!-- Consultation Form -->
+            <div class="form-card">
+
+                <div class="form-top">
+
+                    <span class="eyebrow">REQUEST FORM</span>
+
+                    <h2>Tell us about you and your pet.</h2>
+
+                    <p>
+                        All fields are required. This is a design
+                        prototype; no information is sent or stored.
+                    </p>
+
+                </div>
+
+                <form id="consultation-form" novalidate>
+
+                    <!-- Owner Contact Information -->
+                    <fieldset>
+
+                        <legend>Your contact details</legend>
+
+                        <!-- Full Name -->
+                        <div class="field">
+
+                            <label for="full-name">
+                                Full name
+                                <span aria-hidden="true">*</span>
+                            </label>
+
+                            <input
+                                id="full-name"
+                                name="full-name"
+                                autocomplete="name"
+                                required
+                                placeholder="Your full name"
+                            >
+
+                            <span
+                                class="error"
+                                id="full-name-error"
+                            ></span>
+
+                        </div>
+
+                        <!-- Email Address -->
+                        <div class="field">
+
+                            <label for="email">
+                                Email address
+                                <span aria-hidden="true">*</span>
+                            </label>
+
+                            <input
+                                id="email"
+                                name="email"
+                                type="email"
+                                autocomplete="email"
+                                required
+                                placeholder="you@example.com"
+                            >
+
+                            <span
+                                class="error"
+                                id="email-error"
+                            ></span>
+
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div class="field">
+
+                            <label for="phone">
+                                Phone number
+                                <span aria-hidden="true">*</span>
+                            </label>
+
+                            <input
+                                id="phone"
+                                name="phone"
+                                type="tel"
+                                autocomplete="tel"
+                                required
+                                placeholder="(555) 555-5555"
+                            >
+
+                            <span
+                                class="error"
+                                id="phone-error"
+                            ></span>
+
+                        </div>
+
+                        <!-- Time Zone -->
+                        <div class="field">
+
+                            <label for="timezone">
+                                Time zone
+                                <span aria-hidden="true">*</span>
+                            </label>
+
+                            <select
+                                id="timezone"
+                                name="timezone"
+                                required
+                            >
+                                <option value="">
+                                    Select your time zone
+                                </option>
+
+                                <option value="Eastern">
+                                    Eastern (ET)
+                                </option>
+
+                                <option value="Central">
+                                    Central (CT)
+                                </option>
+
+                                <option value="Mountain">
+                                    Mountain (MT)
+                                </option>
+
+                                <option value="Pacific">
+                                    Pacific (PT)
+                                </option>
+
+                                <option value="Alaska">
+                                    Alaska (AKT)
+                                </option>
+
+                                <option value="Hawaii-Aleutian">
+                                    Hawaii–Aleutian (HAT)
+                                </option>
+
+                                <option value="Other">
+                                    Other / outside US
+                                </option>
+                            </select>
+
+                            <span
+                                class="error"
+                                id="timezone-error"
+                            ></span>
+
+                        </div>
+
+                    </fieldset>
+
+                    <!-- Pet Information -->
+                    <fieldset>
+
+                        <legend>About your pet</legend>
+
+                        <!-- Pet Name -->
+                        <div class="field">
+
+                            <label for="pet-name">
+                                Pet name
+                                <span aria-hidden="true">*</span>
+                            </label>
+
+                            <input
+                                id="pet-name"
+                                name="pet-name"
+                                required
+                                placeholder="Your pet’s name"
+                            >
+
+                            <span
+                                class="error"
+                                id="pet-name-error"
+                            ></span>
+
+                        </div>
+
+                        <!-- Pet Type -->
+                        <div class="field">
+
+                            <label for="pet-type">
+                                Pet type
+                                <span aria-hidden="true">*</span>
+                            </label>
+
+                            <select
+                                id="pet-type"
+                                name="pet-type"
+                                required
+                            >
+                                <option value="">
+                                    Select a pet type
+                                </option>
+
+                                <option>Dog</option>
+                                <option>Cat</option>
+                                <option>Bird</option>
+                                <option>Fish</option>
+                                <option>Small animal</option>
+                                <option>Reptile</option>
+                                <option>Other</option>
+                            </select>
+
+                            <span
+                                class="error"
+                                id="pet-type-error"
+                            ></span>
+
+                        </div>
+
+                        <!-- Pet Age -->
+                        <div class="field">
+
+                            <label for="pet-age">
+                                Pet age
+                                <span aria-hidden="true">*</span>
+                            </label>
+
+                            <input
+                                id="pet-age"
+                                name="pet-age"
+                                required
+                                placeholder="e.g., 8 months or 4 years"
+                            >
+
+                            <span
+                                class="error"
+                                id="pet-age-error"
+                            ></span>
+
+                        </div>
+
+                    </fieldset>
+
+                    <!-- Submit Button -->
+                    <button
+                        class="button button-primary submit"
+                        type="submit"
+                    >
+                        Request a consultation
+                        <span aria-hidden="true">→</span>
+                    </button>
+
+                    <!-- Prototype Disclaimer -->
+                    <p class="form-disclaimer">
+                        Prototype only: submitting displays an on-screen
+                        example confirmation and does not schedule
+                        a consultation.
+                    </p>
+
+                    <!-- Form Feedback -->
+                    <div
+                        class="form-feedback"
+                        id="form-feedback"
+                        role="status"
+                        aria-live="polite"
+                        tabindex="-1"
+                        hidden
+                    ></div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="footer">
+
+        <div class="shell footer-grid">
+
+            <!-- Company Information -->
+            <div>
+
+                <a
+                    class="footer-brand"
+                    href="/schoolproject/D279/index.html"
+                >
+                    Paradigm Pet Professionals
+                </a>
+
+                <p>
+                    Evidence-based pet care advice for every pet lover.
+                </p>
+
+                <p>
+                    12 years of experience helping pets and the people
+                    who love them.
+                </p>
+
+            </div>
+
+            <!-- Pet Care Navigation -->
+            <div>
+
+                <h2>Explore</h2>
+
+                <a href="/schoolproject/D279/dogs.html">Dog Owners</a>
+
+                <a href="/schoolproject/D279/cats.html">Cat Owners</a>
+
+                <a href="/schoolproject/D279/birds.html">Bird Owners</a>
+
+            </div>
+
+            <!-- Services and Resources -->
+            <div>
+
+                <h2>How we help</h2>
+
+                <a href="/schoolproject/D279/index.html#pexperts">
+                    About our Pexperts
+                </a>
+
+                <a href="/schoolproject/D279/index.html#adoption">
+                    Adoption resources
+                </a>
+
+                <a href="/schoolproject/D279/index.html#services">
+                    Group presentations
+                </a>
+
+                <a href="/schoolproject/D279/consultation.html">
+                    Request a consultation
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="shell footer-bottom">
+
+            <span>
+                © Paradigm Pet Professionals · D279 interactive design prototype
+            </span>
+
+            <a href="#top">Back to top ↑</a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
