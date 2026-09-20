@@ -1,110 +1,603 @@
+
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Plan your Taniti visit: arrival, transport, lodging, food and practical information.">
+
+    <meta
+        name="description"
+        content="Plan your Taniti visit: arrival, transport, lodging, food and practical information."
+    >
+
     <title>Plan Your Trip | Taniti Tourism</title>
+
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+
     <header>
-      <nav class="nav" aria-label="Main navigation">
-        <a class="brand" href="/schoolproject/index.html">TANITI</a>
-        <div class="nav-links">
-          <a href="/schoolproject/things-to-do.html">Things to Do</a>
-          <a href="/schoolproject/plan-your-trip.html#stay">Stay</a>
-          <a href="/schoolproject/plan-your-trip.html#dining">Eat</a>
-          <a href="/schoolproject/plan-your-trip.html#transportation">Transportation</a>
-          <a href="/schoolproject/plan-your-trip.html#visitor-info">Visitor Info</a>
-        </div>
-      </nav>
+        <nav class="nav" aria-label="Main navigation">
+
+            <a class="brand" href="/schoolproject/index.html">
+                TANITI
+            </a>
+
+            <div class="nav-links">
+                <a href="/schoolproject/things-to-do.html">
+                    Things to Do
+                </a>
+
+                <a href="/schoolproject/plan-your-trip.html#stay">
+                    Stay
+                </a>
+
+                <a href="/schoolproject/plan-your-trip.html#dining">
+                    Eat
+                </a>
+
+                <a href="/schoolproject/plan-your-trip.html#transportation">
+                    Transportation
+                </a>
+
+                <a href="/schoolproject/plan-your-trip.html#visitor-info">
+                    Visitor Info
+                </a>
+            </div>
+
+        </nav>
     </header>
-  <main>
-    <section class="page-head">
-      <div class="inner">
-        <h1>Plan Your Trip</h1>
-        <p>Everything you need before visiting Taniti.</p>
-      </div>
-    </section>
-    <section class="container">
-      <div class="grid-links">
-        <a class="tile" href="#getting-here">Getting Here →</a>
-        <a class="tile" href="#transportation">Getting Around →</a>
-        <a class="tile" href="#stay">Where to Stay →</a>
-        <a class="tile" href="#visitor-info">Visitor Information →</a>
-      </div>
-      <section class="info-block" id="getting-here">
-        <h3>Getting Here</h3>
-        <p>Most visitors arrive by air. Taniti’s small airport currently accommodates small jets and propeller planes. Airport expansion is planned to accommodate larger jets in the coming years.</p>
-        <p>A small cruise ship also docks in Yellow Leaf Bay for one night per week.</p>
-      </section>
-      <section class="info-block" id="transportation">
-        <h3>Getting Around</h3>
-        <p>Choose a transportation option based on where you plan to explore:</p>
-        <ul>
-          <li>
-            <strong>Public buses:</strong> Serve Taniti City daily from 5 a.m. to 11 p.m.</li>
-            <li><strong>Private buses:</strong> Serve other areas of the island.</li>
-            <li><strong>Taxis:</strong> Available in Taniti City.</li>
-            <li><strong>Rental cars:</strong> Available from a local agency near the airport.</li>
-            <li><strong>Bicycles:</strong> Available from several vendors; helmets are required by law.</li>
-            <li><strong>Walking:</strong> Taniti City is fairly flat and walkable, and Merriton Landing is easy to explore on foot.</li>
-          </ul>
-      </section>
-      <section class="info-block" id="stay">
-        <h3>Where to Stay</h3>
-        <p>Taniti offers lodging ranging from an inexpensive hostel to a large four-star resort. Visitors can also choose from small family-owned hotels and a growing number of bed and breakfasts.</p>
-        <p>All types of lodging are regulated and regularly inspected by the Tanitian government.</p>
-      </section>
-      <section class="info-block" id="dining">
-        <h3>Food &amp; Dining</h3>
-        <p>Taniti has ten restaurants: five primarily serve local fish and rice, three offer American-style meals, and two serve Pan-Asian cuisine.</p>
-        <p>For groceries, the island has two supermarkets, two smaller grocery stores, and a convenience store open 24 hours a day.</p>
-      </section>
-      <section class="info-block" id="visitor-info">
-        <h3>Visitor Information</h3>
-        <p>Review these practical details before your visit.</p>
-        <div class="info-block" id="currency">
-          <h3>Currency &amp; Payments</h3>
-          <p>Taniti uses the U.S. dollar. Many businesses also accept euros and yen, several banks exchange currency, and many businesses accept major credit cards.</p>
+
+    <main>
+
+        <!-- Page Heading -->
+
+        <section class="page-head">
+            <div class="inner">
+
+                <h1>Plan Your Trip</h1>
+
+                <p>
+                    Everything you need before visiting Taniti.
+                </p>
+
+            </div>
+        </section>
+
+        <section class="container">
+
+            <!-- Trip Planning Navigation -->
+
+            <nav class="grid-links" aria-label="Trip planning topics">
+
+                <a class="tile" href="#getting-here">
+                    Getting Here →
+                </a>
+
+                <a class="tile" href="#transportation">
+                    Getting Around →
+                </a>
+
+                <a class="tile" href="#stay">
+                    Where to Stay →
+                </a>
+
+                <a class="tile" href="#dining">
+                    Food &amp; Dining →
+                </a>
+
+                <a class="tile" href="#entertainment">
+                    Entertainment →
+                </a>
+
+                <a class="tile" href="#visitor-info">
+                    Visitor Information →
+                </a>
+
+            </nav>
+
+            <!-- Getting Here -->
+
+            <section class="info-block" id="getting-here">
+
+                <h2>Getting Here</h2>
+
+                <p>
+                    Whether you're arriving by air or sea,
+                    your Taniti adventure begins at one of
+                    the island's two main arrival points.
+                </p>
+
+                <h3>Arriving by Air</h3>
+
+                <p>
+                    Most visitors arrive through Taniti's
+                    small airport, which currently accommodates
+                    small jets and propeller planes.
+                </p>
+
+                <p>
+                    The airport is being expanded to accommodate
+                    larger jets in the coming years.
+                </p>
+
+                <p>
+                    Visitors who plan to rent a car can find
+                    a local rental agency near the airport.
+                </p>
+
+                <h3>Arriving by Cruise Ship</h3>
+
+                <p>
+                    A small cruise ship docks in Yellow Leaf Bay
+                    for one night per week.
+                </p>
+
+                <p>
+                    Visitors arriving by cruise ship can explore
+                    Taniti City and its nearby beaches.
+                    The Merriton Landing area is also easy
+                    to explore on foot.
+                </p>
+
+                <div class="note">
+                    Planning to explore beyond Taniti City?
+                    Review the transportation options below
+                    before deciding how to travel around the island.
+                </div>
+
+            </section>
+
+            <!-- Getting Around -->
+
+            <section class="info-block" id="transportation">
+
+                <h2>Getting Around</h2>
+
+                <p>
+                    Taniti offers several ways to explore.
+                    Your best option will depend on whether
+                    you plan to stay near Taniti City or
+                    venture into other parts of the island.
+                </p>
+
+                <ul>
+
+                    <li>
+                        <strong>Public buses:</strong>
+                        Serve Taniti City daily from
+                        5 a.m. to 11 p.m.
+                    </li>
+
+                    <li>
+                        <strong>Private buses:</strong>
+                        Serve other areas of the island.
+                    </li>
+
+                    <li>
+                        <strong>Taxis:</strong>
+                        Available in Taniti City.
+                    </li>
+
+                    <li>
+                        <strong>Rental cars:</strong>
+                        Available from a local agency
+                        near the airport.
+                    </li>
+
+                    <li>
+                        <strong>Bicycles:</strong>
+                        Available from several vendors.
+                        Helmets are required by law.
+                    </li>
+
+                    <li>
+                        <strong>Walking:</strong>
+                        Taniti City is fairly flat and
+                        walkable. Merriton Landing is
+                        also easy to explore on foot.
+                    </li>
+
+                </ul>
+
+                <div class="note">
+                    Want to explore the island's natural attractions?
+                    <a href="/schoolproject/things-to-do.html">
+                        Browse Things to Do →
+                    </a>
+                </div>
+
+            </section>
+
+            <!-- Accommodations -->
+
+            <section class="info-block" id="stay">
+
+                <h2>Where to Stay</h2>
+
+                <p>
+                    From budget-friendly accommodations to
+                    resort experiences, Taniti offers lodging
+                    options for a variety of travelers.
+                </p>
+
+                <div class="cards">
+
+                    <article class="card">
+
+                        <div class="visual" aria-hidden="true">
+                            🏝️
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Four-Star Resort</h3>
+
+                            <p>
+                                Taniti has one large four-star
+                                resort for visitors interested
+                                in a resort-style stay.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                    <article class="card">
+
+                        <div class="visual" aria-hidden="true">
+                            🏨
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Hotels</h3>
+
+                            <p>
+                                The island offers many small,
+                                family-owned hotels for
+                                travelers seeking traditional
+                                accommodations.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                    <article class="card">
+
+                        <div class="visual" aria-hidden="true">
+                            🏡
+                        </div>
+
+                        <div class="card-body">
+
+                            <h3>Bed &amp; Breakfasts</h3>
+
+                            <p>
+                                A growing number of bed and
+                                breakfasts provide additional
+                                lodging choices for visitors.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <h3>Additional Lodging Options</h3>
+
+                <p>
+                    Travelers seeking inexpensive accommodations
+                    can consider Taniti's hostel.
+                </p>
+
+                <p>
+                    All types of lodging on Taniti are strictly
+                    regulated and regularly inspected by
+                    the Tanitian government.
+                </p>
+
+                <div class="note">
+                    Accommodation names, current rates,
+                    and reservation availability are not
+                    included in this tourism prototype.
+                </div>
+
+            </section>
+
+            <!-- Food and Dining -->
+
+            <section class="info-block" id="dining">
+
+                <h2>Food &amp; Dining</h2>
+
+                <p>
+                    Discover local flavors, familiar favorites,
+                    and a variety of dining options during
+                    your stay on Taniti.
+                </p>
+
+                <h3>Restaurants</h3>
+
+                <p>
+                    Taniti currently has ten restaurants
+                    offering three main types of cuisine.
+                </p>
+
+                <ul>
+
+                    <li>
+                        <strong>Local Cuisine:</strong>
+                        Five restaurants primarily serve
+                        local fish and rice dishes.
+                    </li>
+
+                    <li>
+                        <strong>American-Style Dining:</strong>
+                        Three restaurants offer
+                        American-style meals.
+                    </li>
+
+                    <li>
+                        <strong>Pan-Asian Cuisine:</strong>
+                        Two restaurants serve
+                        Pan-Asian dishes.
+                    </li>
+
+                </ul>
+
+                <h3>Groceries &amp; Convenience</h3>
+
+                <p>
+                    Visitors who prefer to prepare their own
+                    meals or purchase snacks have several
+                    grocery options available.
+                </p>
+
+                <ul>
+
+                    <li>Two supermarkets</li>
+                    <li>Two smaller grocery stores</li>
+                    <li>One convenience store open 24 hours a day</li>
+
+                </ul>
+
+                <h3>Pubs &amp; Nightlife</h3>
+
+                <p>
+                    Taniti has several pubs, including a
+                    microbrewery, as well as a new dance club.
+                    Many entertainment activities are located
+                    in the developing Merriton Landing area.
+                </p>
+
+                <div class="note">
+                    Alcohol cannot be served or sold between
+                    midnight and 9 a.m. The legal drinking
+                    age on Taniti is 18.
+                </div>
+
+            </section>
+
+            <!-- Entertainment -->
+
+            <section class="info-block" id="entertainment">
+
+                <h2>Entertainment &amp; Amenities</h2>
+
+                <p>
+                    There's more to Taniti than beaches
+                    and sightseeing. Visitors can also
+                    enjoy a variety of recreational
+                    and cultural activities.
+                </p>
+
+                <ul>
+
+                    <li>Local history museum</li>
+                    <li>Art galleries</li>
+                    <li>Movie theater</li>
+                    <li>Arcade</li>
+                    <li>Bowling</li>
+                    <li>Pubs and microbrewery</li>
+                    <li>Dance club</li>
+                    <li>Chartered fishing tours</li>
+                    <li>Snorkeling</li>
+                    <li>Rainforest zip-lining</li>
+                    <li>Helicopter rides</li>
+
+                </ul>
+
+                <p>
+                    Many of these activities are located
+                    in Merriton Landing, a rapidly
+                    developing area on the north side
+                    of Yellow Leaf Bay.
+                </p>
+
+                <p>
+                    A nine-hole golf course is also
+                    planned for the island.
+                </p>
+
+                <a href="/schoolproject/things-to-do.html">
+                    Explore Taniti's Attractions →
+                </a>
+
+            </section>
+
+            <!-- Visitor Information -->
+
+            <section class="info-block" id="visitor-info">
+
+                <h2>Visitor Information</h2>
+
+                <p>
+                    Review these practical details
+                    before your visit.
+                </p>
+
+                <!-- Currency -->
+
+                <div class="info-block" id="currency">
+
+                    <h3>Currency &amp; Payments</h3>
+
+                    <p>
+                        Taniti uses the U.S. dollar.
+                        Many businesses also accept
+                        euros and yen.
+                    </p>
+
+                    <p>
+                        Several banks exchange currency,
+                        and many businesses accept
+                        major credit cards.
+                    </p>
+
+                </div>
+
+                <!-- Language -->
+
+                <div class="info-block" id="language">
+
+                    <h3>Language</h3>
+
+                    <p>
+                        Many younger Tanitians speak
+                        fluent English.
+                    </p>
+
+                    <p>
+                        English is less common in rural
+                        areas, particularly among
+                        older residents.
+                    </p>
+
+                </div>
+
+                <!-- Electrical Outlets -->
+
+                <div class="info-block" id="power">
+
+                    <h3>Electrical Outlets</h3>
+
+                    <p>
+                        Power outlets are 120 volts,
+                        the same voltage used in
+                        the United States.
+                    </p>
+
+                </div>
+
+                <!-- Safety -->
+
+                <div class="info-block" id="safety">
+
+                    <h3>Safety &amp; Healthcare</h3>
+
+                    <p>
+                        Violent crime is very rare,
+                        but reports of pickpocketing
+                        and other petty crime have
+                        increased with tourism.
+                    </p>
+
+                    <p>
+                        Taniti has one hospital and
+                        several clinics. The hospital
+                        has many multilingual employees.
+                    </p>
+
+                </div>
+
+                <!-- Holidays -->
+
+                <div class="info-block" id="holidays">
+
+                    <h3>National Holidays</h3>
+
+                    <p>
+                        Taniti observes many national
+                        holidays. Attractions and
+                        restaurants may close on
+                        these days, so plan accordingly.
+                    </p>
+
+                </div>
+
+                <!-- Local Rules -->
+
+                <div class="info-block" id="local-rules">
+
+                    <h3>Local Rules</h3>
+
+                    <p>
+                        Alcohol cannot be served or
+                        sold from midnight to 9 a.m.
+                    </p>
+
+                    <p>
+                        The legal drinking age is 18.
+                        Bicycle helmets are required
+                        by law.
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- Closing Call to Action -->
+
+            <div class="note">
+
+                Ready to explore?
+
+                <a href="/schoolproject/things-to-do.html">
+                    Browse Things to Do →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="inner">
+
+            <strong>
+                TANITI · A small island. A big experience.
+            </strong>
+
+            <div class="links">
+
+                <a href="/schoolproject/index.html">
+                    Home
+                </a>
+
+                <a href="/schoolproject/things-to-do.html">
+                    Things to Do
+                </a>
+
+                <a href="#visitor-info">
+                    Visitor Information
+                </a>
+
+            </div>
+
         </div>
-        <div class="info-block" id="language">
-          <h3>Language</h3>
-          <p>Many younger Tanitians speak fluent English. English is less common in rural areas, particularly among older residents.</p>
-        </div>
-        <div class="info-block" id="power">
-          <h3>Electrical Outlets</h3>
-          <p>Power outlets are 120 volts, the same voltage used in the United States.</p>
-        </div>
-        <div class="info-block" id="safety">
-          <h3>Safety &amp; Healthcare</h3>
-          <p>Violent crime is very rare, but reports of pickpocketing and other petty crime have increased with tourism. Taniti has one hospital and several clinics; the hospital has many multilingual employees.</p>
-        </div>
-        <div class="info-block" id="holidays">
-          <h3>National Holidays</h3>
-          <p>Taniti observes many national holidays. Attractions and restaurants may close on these days, so plan accordingly.</p>
-        </div>
-        <div class="info-block" id="local-rules">
-          <h3>Local Rules</h3>
-          <p>Alcohol cannot be served or sold from midnight to 9 a.m. The legal drinking age is 18. Bicycle helmets are required by law.</p>
-        </div>
-      </section>
-      <div class="note">
-        Ready to explore? 
-        <a href="/schoolproject/things-to-do.html">Browse Things to Do →</a>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="inner">
-      <strong>TANITI · A small island. A big experience.</strong>
-      <div class="links">
-        <a href="/schoolproject/index.html">Home</a>
-        <a href="/schoolproject/things-to-do.html">Things to Do</a>
-        <a href="#visitor-info">Visitor Information</a>
-      </div>
-    </div>
-  </footer>
+
+    </footer>
+
 </body>
 </html>

@@ -82,10 +82,21 @@ header {
 
 /* Hero Section */
 
+
+/* Hero Section */
+
 .hero {
-    background: linear-gradient(115deg, #104b58, #078a90);
+    background:
+        linear-gradient(
+            115deg,
+            rgba(10, 48, 58, 0.72),
+            rgba(8, 90, 98, 0.35)
+        ),
+        url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+        center / cover no-repeat;
+
     color: white;
-    padding: 90px 22px;
+    padding: 110px 22px;
     text-align: center;
 }
 
@@ -177,6 +188,9 @@ header {
     flex-direction: column;
 }
 
+
+/* Attraction Images */
+
 .visual {
     min-height: 155px;
     display: flex;
@@ -184,6 +198,15 @@ header {
     justify-content: center;
     background: linear-gradient(135deg, #c7e9e4, #8ec6c2);
     font-size: 3.4rem;
+    overflow: hidden;
+}
+
+.visual img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 155px;
+    object-fit: cover;
 }
 
 .card-body {
@@ -303,10 +326,20 @@ header {
     scroll-margin-top: 20px;
 }
 
-.info-block h3 {
-    font-size: 1.4rem;
-    margin: 0 0 7px;
+.info-block > h2 {
+    font-size: 1.8rem;
     color: var(--deep);
+    margin: 0 0 15px;
+}
+
+.info-block > h3 {
+    font-size: 1.3rem;
+    color: var(--deep);
+    margin: 25px 0 10px;
+}
+
+.info-block .cards {
+    margin: 25px 0;
 }
 
 .info-block p {
@@ -316,6 +349,10 @@ header {
 .info-block ul {
     margin: 8px 0 0;
     padding-left: 23px;
+}
+
+.info-block .card-body p {
+    margin-bottom: 0;
 }
 
 .note {
@@ -381,4 +418,24 @@ footer .links {
         align-items: flex-start;
         flex-direction: column;
     }
+}
+
+/* Prototype Photography */
+
+.feature .visual img {
+    height: 155px;
+}
+
+.card .visual img {
+    height: 180px;
+}
+
+.photo-credit {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 12px;
+}
+
+.photo-credit a {
+    color: inherit;
 }
